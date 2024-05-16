@@ -1,0 +1,57 @@
+@mixin pretty-checkbox-input($checkbox_color){
+   appearance: none;
+   height: 17px;
+   aspect-ratio: 1/1;
+   flex-shrink: 0;
+   cursor: pointer;
+   border: 2px solid $checkbox_color;
+   border-radius: 2px;
+   display: grid;
+   place-content: center;
+
+   &[DISABLED] {
+      opacity: .72;
+   }
+
+   &:before {
+      content: '';
+      display: flex;
+      background-color: $checkbox_color;
+      width: 14px;
+      height: 14px;
+      transform: scale(0);
+      transition: transform 0.12s ease-in-out;
+   }
+
+   &:checked {
+      border-color: $checkbox_color;
+   }
+
+   &:checked::before {
+      transform: scale(1);
+      background-color: $checkbox_color;
+      border-radius: 2px;
+   }
+}
+
+@mixin pretty-checkbox($checkbox_color) {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   cursor: pointer;
+   @include noselect;
+
+   &__input {
+      @include pretty-checkbox-input($checkbox_color);
+   }
+
+   &__label {
+      font: 400 16px/1.2 var(--font-family);
+      cursor: pointer;
+
+      &__link {
+         color: $checkbox_color;
+         text-decoration: underline;
+      }
+   }
+}

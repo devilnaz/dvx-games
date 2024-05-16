@@ -1,0 +1,48 @@
+@import './fonts/inter.css';
+@import './fonts/karantina.css';
+@import './normalize.css';
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  font-weight: 500;
+  line-height: normal;
+  font-style: normal;
+}
+
+// reset
+a {
+  text-decoration: none;
+}
+button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  &:hover {
+    cursor: pointer;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrap-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
