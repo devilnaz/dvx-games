@@ -3,14 +3,14 @@
     <div class="wrap-container">
       <div class="header">
         <div class="header__logo">
-          <span class="header__logo-title"> DVX. </span>
+            <NuxtLink to="/" class="header__logo-link">DVX.</NuxtLink> 
         </div>
         <div class="header__navigate">
           <nav class="navigate">
             <ul class="navigate__list">
-              <li><a href="#" class="navigate__link"> Contact </a></li>
-              <li><a href="#" class="navigate__link"> Private Policy </a></li>
-              <li><a href="#" class="navigate__link"> Imprint </a></li>
+              <li><NuxtLink to="contact" class="navigate__link"> Contact </NuxtLink></li>
+              <li><NuxtLink to="privacy" class="navigate__link"> Private Policy </NuxtLink></li>
+              <li><NuxtLink to="imprint" class="navigate__link"> Imprint </NuxtLink></li>
             </ul>
           </nav>
         </div>
@@ -27,7 +27,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  &__logo-title {
+  &__logo-link {
     font: 400 40px 'Karantina';
     color: var(--blue);
   }

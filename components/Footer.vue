@@ -4,9 +4,9 @@
       <footer class="footer">
         <nav class="navigate">
           <ul class="navigate__list">
-            <li><a href="#" class="navigate__link"> Contact </a></li>
-            <li><a href="#" class="navigate__link"> Private Policy </a></li>
-            <li><a href="#" class="navigate__link"> Imprint </a></li>
+            <li><NuxtLink to="contact" class="navigate__link"> Contact </NuxtLink></li>
+              <li><NuxtLink to="privacy" class="navigate__link"> Private Policy </NuxtLink></li>
+              <li><NuxtLink to="imprint" class="navigate__link"> Imprint </NuxtLink></li>
           </ul>
         </nav>
       </footer>
@@ -19,6 +19,7 @@
 <style lang="scss" scoped>
 .footer {
   margin-top: 25px;
+  margin-bottom: 40px;
 }
 .navigate {
   &__list {
