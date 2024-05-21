@@ -1,78 +1,48 @@
 <template>
-	<div>
-		<OtherCover :title="'PRIVACY POLICY'" />
-		<div class="wrap-container">
-			<main class="main-content">
-				<div class="privacy">
-					<p>
-						Verantwortliche Stelle im Sinne der Datenschutzgesetze,
-						insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
-					</p>
+  <div>
+    <OtherCover :title="'PRIVACY POLICY'" />
+    <div class="wrap-container">
+      <main class="main-content">
+        <div class="privacy">
+          <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
 
-					<p>
-						DVX Networks GmbH<br />
-						Teerhof 59<br />
-						28199 Bremen<br />
-						Germany<br />
-						<br />
-						Mail: <a href="mailto:info@dvx.net">info@dvx.net</a
-						><br /><br />
-						Geschäftsführer: Mathias Seemann
-					</p>
+          <p>
+            DVX Networks GmbH<br />
+            Teerhof 59<br />
+            28199 Bremen<br />
+            Germany<br />
+            <br />
+            Mail: <a href="mailto:info@dvx.net">info@dvx.net</a><br /><br />
+            Geschäftsführer: Mathias Seemann
+          </p>
 
           <h2>Ihre Betroffenenrechte</h2>
           <p>Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:</p>
 
-					<ol>
-						<li>
-							Auskunft über Ihre bei uns gespeicherten Daten und deren
-							Verarbeitung (Art. 15 DSGVO),
-						</li>
-						<li>
-							Berichtigung unrichtiger personenbezogener Daten (Art. 16
-							DSGVO),
-						</li>
-						<li>
-							Löschung Ihrer bei uns gespeicherten Daten (Art. 17 DSGVO),
-						</li>
-						<li>
-							Einschränkung der Datenverarbeitung, sofern wir Ihre Daten
-							aufgrund gesetzlicher Pflichten noch nicht löschen dürfen
-							(Art. 18 DSGVO),
-						</li>
-						<li>
-							Widerspruch gegen die Verarbeitung Ihrer Daten bei uns
-							(Art. 21 DSGVO) und
-						</li>
-						<li>
-							Datenübertragbarkeit, sofern Sie in die Datenverarbeitung
-							eingewilligt haben oder einen Vertrag mit uns abgeschlossen
-							haben (Art. 20 DSGVO).
-						</li>
-					</ol>
+          <ol>
+            <li>Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung (Art. 15 DSGVO),</li>
+            <li>Berichtigung unrichtiger personenbezogener Daten (Art. 16 DSGVO),</li>
+            <li>Löschung Ihrer bei uns gespeicherten Daten (Art. 17 DSGVO),</li>
+            <li>Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht löschen dürfen (Art. 18 DSGVO),</li>
+            <li>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns (Art. 21 DSGVO) und</li>
+            <li>
+              Datenübertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben (Art. 20 DSGVO).
+            </li>
+          </ol>
 
-					<p>
-						Sofern Sie uns eine Einwilligung erteilt haben, können Sie
-						diese jederzeit mit Wirkung für die Zukunft widerrufen.
-					</p>
+          <p>Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.</p>
 
-					<p>
-						Sie können sich jederzeit mit einer Beschwerde an eine
-						Aufsichtsbehörde wenden, z. B. an die zuständige
-						Aufsichtsbehörde des Bundeslands Ihres<br />
-						Wohnsitzes oder an die für uns als verantwortliche Stelle
-						zuständige Behörde.
-					</p>
+          <p>
+            Sie können sich jederzeit mit einer Beschwerde an eine Aufsichtsbehörde wenden, z. B. an die zuständige Aufsichtsbehörde des Bundeslands Ihres<br />
+            Wohnsitzes oder an die für uns als verantwortliche Stelle zuständige Behörde.
+          </p>
 
-					<p>
-						Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen
-						Bereich) mit Anschrift finden Sie unter:
-						<a
-							target="_blank"
-							href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
-							>https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a
-						>.
-					</p>
+          <p>
+            Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit Anschrift finden Sie unter:
+            <a target="_blank" href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
+              >https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a
+            >.
+          </p>
 
           <h2>Recht auf Datenübertragbarkeit</h2>
           <p>
@@ -109,21 +79,16 @@
 
           <h3>Sie werden insbesondere zu folgenden Zwecken verarbeitet:</h3>
 
-					<p>
-						Sicherstellung eines problemlosen Verbindungsaufbaus der
-						Website, Sicherstellung einer reibungslosen Nutzung unserer
-						Website, Auswertung der<br />
-						Systemsicherheit und -stabilität sowie zu weiteren
-						administrativen Zwecken.
-					</p>
+          <p>
+            Sicherstellung eines problemlosen Verbindungsaufbaus der Website, Sicherstellung einer reibungslosen Nutzung unserer Website, Auswertung der<br />
+            Systemsicherheit und -stabilität sowie zu weiteren administrativen Zwecken.
+          </p>
 
-					<p>
-						Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre
-						Person zu ziehen. Informationen dieser Art werden von uns
-						ggfs. statistisch ausgewertet, um<br />
-						unseren Internetauftritt und die dahinterstehende Technik zu
-						optimieren.<br />
-					</p>
+          <p>
+            Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Informationen dieser Art werden von uns ggfs. statistisch ausgewertet,
+            um<br />
+            unseren Internetauftritt und die dahinterstehende Technik zu optimieren.<br />
+          </p>
 
           <h3>Rechtsgrundlage:</h3>
           <p>
@@ -150,47 +115,32 @@
           <h2>Cookies</h2>
           <h3>Art und Zweck der Verarbeitung:</h3>
 
-					<p>
-						Wie viele andere Webseiten verwenden wir auch so genannte
-						„Cookies“. Bei Cookies handelt es sich um kleine Textdateien,
-						die auf Ihrem Endgerät<br />
-						(Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie
-						unsere Webseite besuchen.
-					</p>
+          <p>
+            Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrem Endgerät<br />
+            (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Webseite besuchen.
+          </p>
 
-					<p>
-						Hierdurch erhalten wir bestimmte Daten wie z. B. IP-Adresse,
-						verwendeter Browser und Betriebssystem.
-					</p>
+          <p>Hierdurch erhalten wir bestimmte Daten wie z. B. IP-Adresse, verwendeter Browser und Betriebssystem.</p>
 
-					<p>
-						Cookies können nicht verwendet werden, um Programme zu starten
-						oder Viren auf einen Computer zu übertragen. Anhand der in
-						Cookies enthaltenen<br />
-						Informationen können wir Ihnen die Navigation erleichtern und
-						die korrekte Anzeige unserer Webseiten ermöglichen.
-					</p>
+          <p>
+            Cookies können nicht verwendet werden, um Programme zu starten oder Viren auf einen Computer zu übertragen. Anhand der in Cookies enthaltenen<br />
+            Informationen können wir Ihnen die Navigation erleichtern und die korrekte Anzeige unserer Webseiten ermöglichen.
+          </p>
 
-					<p>
-						In keinem Fall werden die von uns erfassten Daten an Dritte
-						weitergegeben oder ohne Ihre Einwilligung eine Verknüpfung mit
-						personenbezogenen Daten<br />
-						hergestellt.
-					</p>
+          <p>
+            In keinem Fall werden die von uns erfassten Daten an Dritte weitergegeben oder ohne Ihre Einwilligung eine Verknüpfung mit personenbezogenen
+            Daten<br />
+            hergestellt.
+          </p>
 
-					<p>
-						Natürlich können Sie unsere Website grundsätzlich auch ohne
-						Cookies betrachten. Internet-Browser sind regelmäßig so
-						eingestellt, dass sie Cookies<br />
-						akzeptieren. Im Allgemeinen können Sie die Verwendung von
-						Cookies jederzeit über die Einstellungen Ihres Browsers
-						deaktivieren. Bitte verwenden Sie<br />
-						die Hilfefunktionen Ihres Internetbrowsers, um zu erfahren,
-						wie Sie diese Einstellungen ändern können. Bitte beachten Sie,
-						dass einzelne Funktionen<br />
-						unserer Website möglicherweise nicht funktionieren, wenn Sie
-						die Verwendung von Cookies deaktiviert haben.<br />
-					</p>
+          <p>
+            Natürlich können Sie unsere Website grundsätzlich auch ohne Cookies betrachten. Internet-Browser sind regelmäßig so eingestellt, dass sie Cookies<br />
+            akzeptieren. Im Allgemeinen können Sie die Verwendung von Cookies jederzeit über die Einstellungen Ihres Browsers deaktivieren. Bitte verwenden
+            Sie<br />
+            die Hilfefunktionen Ihres Internetbrowsers, um zu erfahren, wie Sie diese Einstellungen ändern können. Bitte beachten Sie, dass einzelne
+            Funktionen<br />
+            unserer Website möglicherweise nicht funktionieren, wenn Sie die Verwendung von Cookies deaktiviert haben.<br />
+          </p>
 
           <h3>Speicherdauer und eingesetzte Cookies:</h3>
           <p>
@@ -200,55 +150,32 @@
 
           <h2>Zur Zeit werden keine Cookies eingesetzt.</h2>
 
-					<p>
-						Soweit diese Cookies (auch) personenbezogene Daten betreffen
-						können, informieren wir Sie darüber in den folgenden
-						Abschnitten.
-					</p>
+          <p>Soweit diese Cookies (auch) personenbezogene Daten betreffen können, informieren wir Sie darüber in den folgenden Abschnitten.</p>
 
-					<p>
-						Sie können über Ihre Browsereinstellungen einzelne Cookies
-						oder den gesamten Cookie-Bestand löschen. Darüber hinaus
-						erhalten Sie Informationen und<br />
-						Anleitungen, wie diese Cookies gelöscht oder deren Speicherung
-						vorab blockiert werden können. Je nach Anbieter Ihres Browsers
-						finden Sie die<br />
-						notwendigen Informationen unter den nachfolgenden Links:
-					</p>
+          <p>
+            Sie können über Ihre Browsereinstellungen einzelne Cookies oder den gesamten Cookie-Bestand löschen. Darüber hinaus erhalten Sie Informationen
+            und<br />
+            Anleitungen, wie diese Cookies gelöscht oder deren Speicherung vorab blockiert werden können. Je nach Anbieter Ihres Browsers finden Sie die<br />
+            notwendigen Informationen unter den nachfolgenden Links:
+          </p>
 
-					<ol>
-						<li>
-							Mozilla Firefox:
-							<a
-								target="_blank"
-								href="https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen"
-								>support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen</a
-							>
-						</li>
+          <ol>
+            <li>
+              Mozilla Firefox:
+              <a target="_blank" href="https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen"
+                >support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen</a
+              >
+            </li>
 
-						<li>
-							Internet Explorer:
-							<a
-								target="_blank"
-								href="https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies"
-								>support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies</a
-							>
-						</li>
-						<li>
-							Google Chrome:
-							<a
-								target="_blank"
-								href="https://support.google.com/accounts/answer/61416?hl=de"
-								>support.google.com/accounts/answer/61416?hl=de</a
-							>
-						</li>
+            <li>
+              Internet Explorer:
+              <a target="_blank" href="https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies"
+                >support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies</a
+              >
+            </li>
+            <li>Google Chrome: <a target="_blank" href="https://support.google.com/accounts/answer/61416?hl=de">support.google.com/accounts/answer/61416?hl=de</a></li>
 
-						<li>
-							Opera:
-							<a target="_blank" href="http://www.opera.com/de/help"
-								>www.opera.com/de/help</a
-							>
-						</li>
+            <li>Opera: <a target="_blank" href="http://www.opera.com/de/help">www.opera.com/de/help</a></li>
 
             <li>
               Safari:
@@ -262,28 +189,21 @@
             Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
           </p>
 
-					<p>
-						Die Google Fonts sind bei uns lokal eingebunden. Daher wird,
-						im Gegensatz zu vielen anderen Webseiten, bei uns keine
-						Verbindung zu den Servern von<br />
-						Google zum Nachladen der jeweiligen Fonts aufgebaut.
-					</p>
+          <p>
+            Die Google Fonts sind bei uns lokal eingebunden. Daher wird, im Gegensatz zu vielen anderen Webseiten, bei uns keine Verbindung zu den Servern
+            von<br />
+            Google zum Nachladen der jeweiligen Fonts aufgebaut.
+          </p>
 
-					<p>
-						Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine
-						Standardschrift von Ihrem Computer genutzt.
-					</p>
+          <p>Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.</p>
 
-					<p>
-						Zur Darstellung der Inhalte wird regelmäßig die
-						Programmiersprache JavaScript verwendet. Sie können der
-						Datenverarbeitung daher widersprechen, indem<br />
-						Sie die Ausführung von JavaScript in Ihrem Browser
-						deaktivieren oder einen Einbindung JavaScript-Blocker
-						installieren. Bitte beachten Sie, dass es<br />
-						hierdurch zu Funktionseinschränkungen auf der Website kommen
-						kann.
-					</p>
+          <p>
+            Zur Darstellung der Inhalte wird regelmäßig die Programmiersprache JavaScript verwendet. Sie können der Datenverarbeitung daher widersprechen,
+            indem<br />
+            Sie die Ausführung von JavaScript in Ihrem Browser deaktivieren oder einen Einbindung JavaScript-Blocker installieren. Bitte beachten Sie, dass
+            es<br />
+            hierdurch zu Funktionseinschränkungen auf der Website kommen kann.
+          </p>
 
           <h2>SSL-Verschlüsselung</h2>
           <p>
