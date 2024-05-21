@@ -3,7 +3,10 @@
     <div class="call-back">
       <div class="call-back__block">
         <div class="call-back__column">
-          <div class="call-back__wrap-photo"><img src="/img/GettyImages.jpg" alt="photo: callback employee" class="call-back__photo" /></div>
+          <div class="call-back__wrap-photo">
+            <img src="/img/GettyImages.jpg" alt="photo: callback employee" class="call-back__photo" />
+          </div>
+          <div class="call-back__name">Anna</div>
         </div>
         <div class="call-back__column call-back__column-info">
           <p class="call-back__text">Request a call back from DVX Networks. Anna will call you back as soon as possible.</p>
@@ -25,25 +28,45 @@
   overflow: hidden;
   text-align: right;
   padding: 18px 30px 16px;
+  @media (max-width: 576px) {
+    text-align: center;
+    }
 
   &__block {
     display: inline-flex;
     max-width: 440px;
     text-align: left;
     column-gap: 18px;
+    @media (max-width: 576px) {
+      flex-direction: column;
+      row-gap: 18px;
+    }
   }
   &__column-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 271px;
   }
   &__wrap-photo {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
+    border-radius: 4px;
+    overflow: hidden;
+    @media (max-width: 576px) {
+      margin: 0 auto;
+    }
   }
   &__photo {
     width: 100%;
     display: block;
+  }
+  &__name {
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    padding-top: 8px;
+    text-align: center;
   }
   &__text {
     font-size: var(--text-4-font-size);

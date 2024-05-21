@@ -1,18 +1,18 @@
 <template>
-    <article class="card">
-      <div class="card__inner">
-        <div class="card__wrap-img">
-          <img :src="'/img/company/' + props.card.img.src" alt="" class="card__img" :style="'height: ' + props.card.img.height + 'px'" />
-        </div>
-        <span class="card__delimetr"></span>
-        <div class="card__body">
-          <p class="card__desc" v-html="props.card.desc"></p>
-          <div class="card__wrap-link">
-            <a :href="'https://' + props.card.link" class="card__link">{{ props.card.link }}</a>
-          </div>
+  <article class="card">
+    <div class="card__inner">
+      <div class="card__wrap-img">
+        <img :src="'/img/company/' + props.card.img.src" alt="" class="card__img" :style="'height: ' + props.card.img.height + 'px'" />
+      </div>
+      <span class="card__delimetr"></span>
+      <div class="card__body">
+        <p class="card__desc" v-html="props.card.desc"></p>
+        <div class="card__wrap-link">
+          <a :href="'https://' + props.card.link" class="card__link">{{ props.card.link }}</a>
         </div>
       </div>
-    </article>
+    </div>
+  </article>
 </template>
 
 <script lang="ts" setup>
@@ -23,11 +23,19 @@ const props = defineProps(['card']);
 .card {
   border-radius: 10px;
   border: 1px solid var(--light-grey);
+  transition: box-shadow 0.1s ease-out;
+  &:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: box-shadow 0.15s ease-in;
+  }
   &__inner {
     padding: 12px 45px 40px;
     display: flex;
     flex-direction: column;
     height: 100%;
+    @media (max-width: 576px) {
+      padding: 12px 35px 40px;
+    }
   }
   &__wrap-img {
     height: 85px;
@@ -56,6 +64,13 @@ const props = defineProps(['card']);
     font-size: var(--text-4-font-size);
     font-weight: 400;
     color: var(--grey);
+    @media (max-width: 685px) {
+      max-width: 309px;
+      align-self: center;
+    }
+    b {
+      font-weight: 600;
+    }
     b[color='red'] {
       color: #d43238;
     }
@@ -68,6 +83,7 @@ const props = defineProps(['card']);
     text-align: center;
   }
   &__link {
+    font-size: var(--text-4-font-size);
     display: inline-block;
     padding: 12px;
     width: 200px;

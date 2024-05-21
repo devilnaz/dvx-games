@@ -18,8 +18,11 @@
 
 <style lang="scss" scoped>
 .footer {
-  margin-top: 25px;
+  margin-top: 100px;
   margin-bottom: 40px;
+  @media (max-width: 768px) {
+    margin-top: 45px;
+  }
 }
 .navigate {
   &__list {
