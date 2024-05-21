@@ -21,13 +21,15 @@
             </div>
 
             <div class="form__row">
-              <input v-model="policy_is_accepted" class="checkbox" id="checkbox" type="checkbox" name="privacy" />
-              <label class="checkbox-label" for="checkbox">
-                <span
-                  >The data you send will only be processed for the purpose of handling your request. For further information, please refer to our
-                  <NuxtLink to="/privacy" class="checkbox-label__link">privacy-policy </NuxtLink></span
-                ></label
-              >
+              <div class="wrap-checkbox">
+                <input v-model="policy_is_accepted" class="checkbox" id="checkbox" type="checkbox" name="privacy" />
+                <label class="checkbox-label" for="checkbox">
+                  <span
+                    >The data you send will only be processed for the purpose of handling your request. For further information, please refer to our
+                    <NuxtLink to="/privacy" class="checkbox-label__link">privacy-policy </NuxtLink></span
+                  ></label
+                >
+              </div>
             </div>
 
             <div class="form__button">
@@ -135,14 +137,47 @@ async function send_email(e) {
     }
   }
 }
-.checkbox {
-  position: absolute;
-  z-index: -1;
-  opacity: 0;
-}
-.checkbox-label {
+
+.wrap-checkbox {
   display: inline-flex;
   align-items: center;
+}
+.checkbox {
+  align-self: start;
+  appearance: none;
+  margin-top: 3px;
+  margin-right: 8px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  &::before {
+    content: '';
+    display: block;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    transition: all 0.2s ease-out;
+  }
+  &:checked::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    transition: all 0.2s ease-out;
+  }
+  &:focus::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    transition: all 0.2s ease-out;
+  }
+  &:focus:not(:checked)::before {
+    border-color: #80bdff;
+    transition: all 0.2s ease-out;
+  }
+}
+
+.checkbox-label {
   user-select: none;
   color: #bfb3b3;
   font-size: 14px;
@@ -150,30 +185,5 @@ async function send_email(e) {
     color: #bfb3b3;
     text-decoration: underline;
   }
-  &::before {
-    content: '';
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    flex-shrink: 0;
-    flex-grow: 0;
-    border: 1px solid #adb5bd;
-    border-radius: 0.25em;
-    margin-right: 8px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 50% 50%;
-  }
-}
-.checkbox:checked + .checkbox-label::before {
-  border-color: #0b76ef;
-  background-color: #0b76ef;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
-}
-.checkbox:focus + .checkbox-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
-.checkbox:focus:not(:checked) + .checkbox-label::before {
-  border-color: #80bdff;
 }
 </style>

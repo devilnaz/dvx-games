@@ -26,6 +26,9 @@
     justify-content: center;
     flex-direction: column;
     color: white;
+    @media (max-width: 575px) {
+      height: 277px;
+    }
   }
   &__title {
     font-family: var(--logo-font-family);

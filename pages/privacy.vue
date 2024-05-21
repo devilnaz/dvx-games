@@ -1,121 +1,233 @@
 <template>
   <div>
-    <OtherCover :title="'PRIVACY POLICY'"/>
+    <OtherCover :title="'PRIVACY POLICY'" />
     <div class="wrap-container">
       <main class="main-content">
-<pre>
-Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
+        <div class="privacy">
+          <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
 
-DVX Networks GmbH
-Teerhof 59
-28199 Bremen
-Germany
-Mail: info@dvx.net
-Geschäftsführer: Mathias Seemann
+          <p>
+            DVX Networks GmbH<br />
+            Teerhof 59<br />
+            28199 Bremen<br />
+            Germany<br />
+            <br />
+            Mail: <a href="mailto:info@dvx.net">info@dvx.net</a><br /><br />
+            Geschäftsführer: Mathias Seemann
+          </p>
 
-Ihre Betroffenenrechte
-Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:
+          <h1>Ihre Betroffenenrechte</h1>
+          <p>Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:</p>
 
-Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung (Art. 15 DSGVO),
-Berichtigung unrichtiger personenbezogener Daten (Art. 16 DSGVO),
-Löschung Ihrer bei uns gespeicherten Daten (Art. 17 DSGVO),
-Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht löschen dürfen (Art. 18 DSGVO),
-Widerspruch gegen die Verarbeitung Ihrer Daten bei uns (Art. 21 DSGVO) und
-Datenübertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben (Art. 20 DSGVO).
+          <ol>
+            <li>Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung (Art. 15 DSGVO),</li>
+            <li>Berichtigung unrichtiger personenbezogener Daten (Art. 16 DSGVO),</li>
+            <li>Löschung Ihrer bei uns gespeicherten Daten (Art. 17 DSGVO),</li>
+            <li>Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht löschen dürfen (Art. 18 DSGVO),</li>
+            <li>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns (Art. 21 DSGVO) und</li>
+            <li>
+              Datenübertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben (Art. 20 DSGVO).
+            </li>
+          </ol>
 
-Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.
+          <p>Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.</p>
 
-Sie können sich jederzeit mit einer Beschwerde an eine Aufsichtsbehörde wenden, z. B. an die zuständige Aufsichtsbehörde des Bundeslands Ihres Wohnsitzes oder an die für uns als verantwortliche Stelle zuständige Behörde.
+          <p>
+            Sie können sich jederzeit mit einer Beschwerde an eine Aufsichtsbehörde wenden, z. B. an die zuständige Aufsichtsbehörde des Bundeslands Ihres<br />
+            Wohnsitzes oder an die für uns als verantwortliche Stelle zuständige Behörde.
+          </p>
 
-Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit Anschrift finden Sie unter: https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html.
+          <p>
+            Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit Anschrift finden Sie unter:
+            <a target="_blank" href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
+              >https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a
+            >.
+          </p>
 
-Recht auf Datenübertragbarkeit
-Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.
+          <h1>Recht auf Datenübertragbarkeit</h1>
+          <p>
+            Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an<br />
+            einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen<br />
+            Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.
+          </p>
 
-Auskunft, Sperrung, Löschung
-Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.
+          <h1>Auskunft, Sperrung, Löschung</h1>
+          <p>
+            Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten<br />
+            personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder<br />
+            Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum
+            angegebenen<br />
+            Adresse an uns wenden.
+          </p>
 
-Widerspruch gegen Werbe-Mails
-Der Nutzung der veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
+          <h1>Widerspruch gegen Werbe-Mails</h1>
+          <p>
+            Der Nutzung der veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird
+            hiermit<br />
+            widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von
+            Werbeinformationen,<br />
+            etwa durch Spam-E-Mails, vor.
+          </p>
 
-Erfassung allgemeiner Informationen beim Besuch unserer Website
-Art und Zweck der Verarbeitung: Wenn Sie auf unsere Website zugreifen, werden automatisch Informationen allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet-Service-Providers, Ihre IP-Adresse und ähnliches.
+          <h1>Erfassung allgemeiner Informationen beim Besuch unserer Website</h1>
+          <h2>Art und Zweck der Verarbeitung:</h2>
+          <p>
+            Wenn Sie auf unsere Website zugreifen, werden automatisch Informationen allgemeiner Natur erfasst. Diese<br />
+            Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres<br />
+            Internet-Service-Providers, Ihre IP-Adresse und ähnliches.
+          </p>
 
-Sie werden insbesondere zu folgenden Zwecken verarbeitet:
+          <h2>Sie werden insbesondere zu folgenden Zwecken verarbeitet:</h2>
 
-Sicherstellung eines problemlosen Verbindungsaufbaus der Website,
-Sicherstellung einer reibungslosen Nutzung unserer Website,
-Auswertung der Systemsicherheit und -stabilität sowie zu weiteren administrativen Zwecken.
+          <p>
+            Sicherstellung eines problemlosen Verbindungsaufbaus der Website, Sicherstellung einer reibungslosen Nutzung unserer Website, Auswertung der<br />
+            Systemsicherheit und -stabilität sowie zu weiteren administrativen Zwecken.
+          </p>
 
-Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Informationen dieser Art werden von uns ggfs. statistisch ausgewertet, um unseren Internetauftritt und die dahinterstehende Technik zu optimieren.
+          <p>
+            Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Informationen dieser Art werden von uns ggfs. statistisch ausgewertet,
+            um<br />
+            unseren Internetauftritt und die dahinterstehende Technik zu optimieren.<br />
+          </p>
 
-Rechtsgrundlage: Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an der Verbesserung der Stabilität und Funktionalität unserer Website.
+          <h2>Rechtsgrundlage:</h2>
+          <p>
+            Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an der Verbesserung der<br />
+            Stabilität und Funktionalität unserer Website.
+          </p>
+          <h2>Empfänger:</h2>
+          <p>
+            Empfänger der Daten sind ggf. technische Dienstleister, die für den Betrieb und die Wartung unserer Webseite als Auftragsverarbeiter<br />
+            tätig werden.
+          </p>
+          <h2>Speicherdauer:</h2>
+          <p>
+            Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht mehr erforderlich sind. Dies ist für die Daten, die der<br />
+            Bereitstellung der Webseite dienen, grundsätzlich der Fall, wenn die jeweilige Sitzung beendet ist.
+          </p>
+          <h2>Bereitstellung vorgeschrieben oder erforderlich:</h2>
+          <p>
+            Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich noch vertraglich<br />
+            vorgeschrieben. Ohne die IP-Adresse ist jedoch der Dienst und die Funktionsfähigkeit unserer Website nicht gewährleistet. Zudem können einzelne<br />
+            Dienste und Services nicht verfügbar oder eingeschränkt sein. Aus diesem Grund ist ein Widerspruch ausgeschlossen.<br />
+          </p>
 
-Empfänger: Empfänger der Daten sind ggf. technische Dienstleister, die für den Betrieb und die Wartung unserer Webseite als Auftragsverarbeiter tätig werden.
+          <h1>Cookies</h1>
+          <h2>Art und Zweck der Verarbeitung:</h2>
 
-Speicherdauer: Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht mehr erforderlich sind. Dies ist für die Daten, die der Bereitstellung der Webseite dienen, grundsätzlich der Fall, wenn die jeweilige Sitzung beendet ist.
+          <p>
+            Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrem Endgerät<br />
+            (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Webseite besuchen.
+          </p>
 
-Bereitstellung vorgeschrieben oder erforderlich: Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Ohne die IP-Adresse ist jedoch der Dienst und die Funktionsfähigkeit unserer Website nicht gewährleistet. Zudem können einzelne Dienste und Services nicht verfügbar oder eingeschränkt sein. Aus diesem Grund ist ein Widerspruch ausgeschlossen.
+          <p>Hierdurch erhalten wir bestimmte Daten wie z. B. IP-Adresse, verwendeter Browser und Betriebssystem.</p>
 
-Cookies
-Art und Zweck der Verarbeitung:
+          <p>
+            Cookies können nicht verwendet werden, um Programme zu starten oder Viren auf einen Computer zu übertragen. Anhand der in Cookies enthaltenen<br />
+            Informationen können wir Ihnen die Navigation erleichtern und die korrekte Anzeige unserer Webseiten ermöglichen.
+          </p>
 
-Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Webseite besuchen.
+          <p>
+            In keinem Fall werden die von uns erfassten Daten an Dritte weitergegeben oder ohne Ihre Einwilligung eine Verknüpfung mit personenbezogenen
+            Daten<br />
+            hergestellt.
+          </p>
 
-Hierdurch erhalten wir bestimmte Daten wie z. B. IP-Adresse, verwendeter Browser und Betriebssystem.
+          <p>
+            Natürlich können Sie unsere Website grundsätzlich auch ohne Cookies betrachten. Internet-Browser sind regelmäßig so eingestellt, dass sie Cookies<br />
+            akzeptieren. Im Allgemeinen können Sie die Verwendung von Cookies jederzeit über die Einstellungen Ihres Browsers deaktivieren. Bitte verwenden
+            Sie<br />
+            die Hilfefunktionen Ihres Internetbrowsers, um zu erfahren, wie Sie diese Einstellungen ändern können. Bitte beachten Sie, dass einzelne
+            Funktionen<br />
+            unserer Website möglicherweise nicht funktionieren, wenn Sie die Verwendung von Cookies deaktiviert haben.<br />
+          </p>
 
-Cookies können nicht verwendet werden, um Programme zu starten oder Viren auf einen Computer zu übertragen. Anhand der in Cookies enthaltenen Informationen können wir Ihnen die Navigation erleichtern und die korrekte Anzeige unserer Webseiten ermöglichen.
+          <h2>Speicherdauer und eingesetzte Cookies:</h2>
+          <p>
+            Soweit Sie uns durch Ihre Browsereinstellungen oder Zustimmung die Verwendung von Cookies erlauben, können<br />
+            folgende Cookies auf unseren Webseiten zum Einsatz kommen:
+          </p>
 
-In keinem Fall werden die von uns erfassten Daten an Dritte weitergegeben oder ohne Ihre Einwilligung eine Verknüpfung mit personenbezogenen Daten hergestellt.
+          <h1>Zur Zeit werden keine Cookies eingesetzt.</h1>
 
-Natürlich können Sie unsere Website grundsätzlich auch ohne Cookies betrachten. Internet-Browser sind regelmäßig so eingestellt, dass sie Cookies akzeptieren. Im Allgemeinen können Sie die Verwendung von Cookies jederzeit über die Einstellungen Ihres Browsers deaktivieren. Bitte verwenden Sie die Hilfefunktionen Ihres Internetbrowsers, um zu erfahren, wie Sie diese Einstellungen ändern können. Bitte beachten Sie, dass einzelne Funktionen unserer Website möglicherweise nicht funktionieren, wenn Sie die Verwendung von Cookies deaktiviert haben.
+          <p>Soweit diese Cookies (auch) personenbezogene Daten betreffen können, informieren wir Sie darüber in den folgenden Abschnitten.</p>
 
-Speicherdauer und eingesetzte Cookies: Soweit Sie uns durch Ihre Browsereinstellungen oder Zustimmung die Verwendung von Cookies erlauben, können folgende Cookies auf unseren Webseiten zum Einsatz kommen:
+          <p>
+            Sie können über Ihre Browsereinstellungen einzelne Cookies oder den gesamten Cookie-Bestand löschen. Darüber hinaus erhalten Sie Informationen
+            und<br />
+            Anleitungen, wie diese Cookies gelöscht oder deren Speicherung vorab blockiert werden können. Je nach Anbieter Ihres Browsers finden Sie die<br />
+            notwendigen Informationen unter den nachfolgenden Links:
+          </p>
 
-Zur Zeit werden keine Cookies eingesetzt.
+          <ol>
+            <li>
+              Mozilla Firefox:
+              <a target="_blank" href="https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen"
+                >support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen</a
+              >
+            </li>
 
-Soweit diese Cookies (auch) personenbezogene Daten betreffen können, informieren wir Sie darüber in den folgenden Abschnitten.
+            <li>
+              Internet Explorer:
+              <a target="_blank" href="https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies"
+                >support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies</a
+              >
+            </li>
+            <li>Google Chrome: <a target="_blank" href="https://support.google.com/accounts/answer/61416?hl=de">support.google.com/accounts/answer/61416?hl=de</a></li>
 
-Sie können über Ihre Browsereinstellungen einzelne Cookies oder den gesamten Cookie-Bestand löschen. Darüber hinaus erhalten Sie Informationen und Anleitungen, wie diese Cookies gelöscht oder deren Speicherung vorab blockiert werden können. Je nach Anbieter Ihres Browsers finden Sie die notwendigen Informationen unter den nachfolgenden Links:
+            <li>Opera: <a target="_blank" href="http://www.opera.com/de/help">www.opera.com/de/help</a></li>
 
-Mozilla Firefox: https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen
+            <li>
+              Safari:
+              <a target="_blank" href="https://support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE">support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE</a>
+            </li>
+          </ol>
 
-Internet Explorer: https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies
+          <h1>Verwendung von Programmen Dritter</h1>
+          <p>
+            Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer<br />
+            Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
+          </p>
 
-Google Chrome: https://support.google.com/accounts/answer/61416?hl=de
+          <p>
+            Die Google Fonts sind bei uns lokal eingebunden. Daher wird, im Gegensatz zu vielen anderen Webseiten, bei uns keine Verbindung zu den Servern
+            von<br />
+            Google zum Nachladen der jeweiligen Fonts aufgebaut.
+          </p>
 
-Opera: http://www.opera.com/de/help
+          <p>Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.</p>
 
-Safari: https://support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE
+          <p>
+            Zur Darstellung der Inhalte wird regelmäßig die Programmiersprache JavaScript verwendet. Sie können der Datenverarbeitung daher widersprechen,
+            indem<br />
+            Sie die Ausführung von JavaScript in Ihrem Browser deaktivieren oder einen Einbindung JavaScript-Blocker installieren. Bitte beachten Sie, dass
+            es<br />
+            hierdurch zu Funktionseinschränkungen auf der Website kommen kann.
+          </p>
 
-Verwendung von Programmen Dritter
-Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
+          <h1>SSL-Verschlüsselung</h1>
+          <p>
+            Um die Sicherheit bei einem Besuch auf unserer Webseite zu erhöhen, verwenden wir dem aktuellen Stand der Technik entsprechende<br />
+            Verschlüsselungsverfahren (z. B. SSL) über HTTPS.
+          </p>
 
-Die Google Fonts sind bei uns lokal eingebunden. Daher wird, im Gegensatz zu vielen anderen Webseiten, bei uns keine Verbindung zu den Servern von Google zum Nachladen der jeweiligen Fonts aufgebaut.
+          <h1>Änderung unserer Datenschutzbestimmungen</h1>
+          <p>
+            Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um
+            Änderungen<br />
+            unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue<br />
+            Datenschutzerklärung.
+          </p>
 
-Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.
-
-Zur Darstellung der Inhalte wird regelmäßig die Programmiersprache JavaScript verwendet. Sie können der Datenverarbeitung daher widersprechen, indem Sie die Ausführung von JavaScript in Ihrem Browser deaktivieren oder einen Einbindung JavaScript-Blocker installieren. Bitte beachten Sie, dass es hierdurch zu Funktionseinschränkungen auf der Website kommen kann.
-
-SSL-Verschlüsselung
-Um die Sicherheit bei einem Besuch auf unserer Webseite zu erhöhen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.
-
-Änderung unserer Datenschutzbestimmungen
-Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.
-
-Fragen an den Datenschutzbeauftragten
-Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation.
-</pre>
+          <h1>Fragen an den Datenschutzbeauftragten</h1>
+          <p>
+            Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche<br />
+            Person in unserer Organisation.
+          </p>
+        </div>
       </main>
     </div>
   </div>
 </template>
 
-<script lang="ts" setup>
-
-</script>
-
-<style>
-
-</style>
-
+<style lang="scss"></style>
