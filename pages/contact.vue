@@ -4,7 +4,7 @@
     <div class="wrap-container">
       <main class="main-content">
         <div class="form-container">
-          <h1 class="form-container__title">Contact Form</h1>
+          <h2 class="form-container__title">Contact Form</h2>
           <p class="form-container__desc">
             If you have any inquiries about our services or are interested in collaborating with our brands, please feel free to contact us without any
             hesitation.
@@ -98,6 +98,12 @@ async function send_email(e) {
   border: 1px solid var(--light-grey);
   border-radius: 10px;
   padding: 20px 40px;
+  @media (max-width: 476px) {
+    padding: 20px 15px;
+  }
+  &__title {
+    font-size: var(--header-3-font-size);
+  }
   &__desc {
     margin-top: 20px;
     color: var(--grey);

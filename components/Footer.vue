@@ -18,10 +18,10 @@
 
 <style lang="scss" scoped>
 .footer {
-  margin-top: 100px;
-  margin-bottom: 40px;
+  margin-top: 26px;
+  margin-bottom: 100px;
   @media (max-width: 768px) {
-    margin-top: 45px;
+    margin-bottom: 45px;
   }
 }
 .navigate {
@@ -33,6 +33,7 @@
     margin-left: 6px;
     margin-right: 6px;
     font-size: var(--text-6-font-size);
+    font-weight: 400;
     color: var(--grey);
   }
 }

@@ -16,7 +16,7 @@
             Geschäftsführer: Mathias Seemann
           </p>
 
-          <h1>Ihre Betroffenenrechte</h1>
+          <h2>Ihre Betroffenenrechte</h2>
           <p>Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:</p>
 
           <ol>
@@ -44,14 +44,14 @@
             >.
           </p>
 
-          <h1>Recht auf Datenübertragbarkeit</h1>
+          <h2>Recht auf Datenübertragbarkeit</h2>
           <p>
             Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an<br />
             einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen<br />
             Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.
           </p>
 
-          <h1>Auskunft, Sperrung, Löschung</h1>
+          <h2>Auskunft, Sperrung, Löschung</h2>
           <p>
             Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten<br />
             personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder<br />
@@ -60,7 +60,7 @@
             Adresse an uns wenden.
           </p>
 
-          <h1>Widerspruch gegen Werbe-Mails</h1>
+          <h2>Widerspruch gegen Werbe-Mails</h2>
           <p>
             Der Nutzung der veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird
             hiermit<br />
@@ -69,15 +69,15 @@
             etwa durch Spam-E-Mails, vor.
           </p>
 
-          <h1>Erfassung allgemeiner Informationen beim Besuch unserer Website</h1>
-          <h2>Art und Zweck der Verarbeitung:</h2>
+          <h2>Erfassung allgemeiner Informationen beim Besuch unserer Website</h2>
+          <h3>Art und Zweck der Verarbeitung:</h3>
           <p>
             Wenn Sie auf unsere Website zugreifen, werden automatisch Informationen allgemeiner Natur erfasst. Diese<br />
             Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres<br />
             Internet-Service-Providers, Ihre IP-Adresse und ähnliches.
           </p>
 
-          <h2>Sie werden insbesondere zu folgenden Zwecken verarbeitet:</h2>
+          <h3>Sie werden insbesondere zu folgenden Zwecken verarbeitet:</h3>
 
           <p>
             Sicherstellung eines problemlosen Verbindungsaufbaus der Website, Sicherstellung einer reibungslosen Nutzung unserer Website, Auswertung der<br />
@@ -90,30 +90,30 @@
             unseren Internetauftritt und die dahinterstehende Technik zu optimieren.<br />
           </p>
 
-          <h2>Rechtsgrundlage:</h2>
+          <h3>Rechtsgrundlage:</h3>
           <p>
             Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an der Verbesserung der<br />
             Stabilität und Funktionalität unserer Website.
           </p>
-          <h2>Empfänger:</h2>
+          <h3>Empfänger:</h3>
           <p>
             Empfänger der Daten sind ggf. technische Dienstleister, die für den Betrieb und die Wartung unserer Webseite als Auftragsverarbeiter<br />
             tätig werden.
           </p>
-          <h2>Speicherdauer:</h2>
+          <h3>Speicherdauer:</h3>
           <p>
             Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht mehr erforderlich sind. Dies ist für die Daten, die der<br />
             Bereitstellung der Webseite dienen, grundsätzlich der Fall, wenn die jeweilige Sitzung beendet ist.
           </p>
-          <h2>Bereitstellung vorgeschrieben oder erforderlich:</h2>
+          <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
           <p>
             Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich noch vertraglich<br />
             vorgeschrieben. Ohne die IP-Adresse ist jedoch der Dienst und die Funktionsfähigkeit unserer Website nicht gewährleistet. Zudem können einzelne<br />
             Dienste und Services nicht verfügbar oder eingeschränkt sein. Aus diesem Grund ist ein Widerspruch ausgeschlossen.<br />
           </p>
 
-          <h1>Cookies</h1>
-          <h2>Art und Zweck der Verarbeitung:</h2>
+          <h2>Cookies</h2>
+          <h3>Art und Zweck der Verarbeitung:</h3>
 
           <p>
             Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrem Endgerät<br />
@@ -142,13 +142,13 @@
             unserer Website möglicherweise nicht funktionieren, wenn Sie die Verwendung von Cookies deaktiviert haben.<br />
           </p>
 
-          <h2>Speicherdauer und eingesetzte Cookies:</h2>
+          <h3>Speicherdauer und eingesetzte Cookies:</h3>
           <p>
             Soweit Sie uns durch Ihre Browsereinstellungen oder Zustimmung die Verwendung von Cookies erlauben, können<br />
             folgende Cookies auf unseren Webseiten zum Einsatz kommen:
           </p>
 
-          <h1>Zur Zeit werden keine Cookies eingesetzt.</h1>
+          <h2>Zur Zeit werden keine Cookies eingesetzt.</h2>
 
           <p>Soweit diese Cookies (auch) personenbezogene Daten betreffen können, informieren wir Sie darüber in den folgenden Abschnitten.</p>
 
@@ -179,11 +179,11 @@
 
             <li>
               Safari:
-              <a target="_blank" href="https://support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE">support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE</a>
+              <a target="_blank" href="https://support.apple.com/kb/Ph27191?locale=de_DE&viewlocale=de_DE">support.apple.com/kb/Ph27191?locale=de_DE&viewlocale=de_DE</a>
             </li>
           </ol>
 
-          <h1>Verwendung von Programmen Dritter</h1>
+          <h2>Verwendung von Programmen Dritter</h2>
           <p>
             Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer<br />
             Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
@@ -205,13 +205,13 @@
             hierdurch zu Funktionseinschränkungen auf der Website kommen kann.
           </p>
 
-          <h1>SSL-Verschlüsselung</h1>
+          <h2>SSL-Verschlüsselung</h2>
           <p>
             Um die Sicherheit bei einem Besuch auf unserer Webseite zu erhöhen, verwenden wir dem aktuellen Stand der Technik entsprechende<br />
             Verschlüsselungsverfahren (z. B. SSL) über HTTPS.
           </p>
 
-          <h1>Änderung unserer Datenschutzbestimmungen</h1>
+          <h2>Änderung unserer Datenschutzbestimmungen</h2>
           <p>
             Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um
             Änderungen<br />
@@ -219,7 +219,7 @@
             Datenschutzerklärung.
           </p>
 
-          <h1>Fragen an den Datenschutzbeauftragten</h1>
+          <h2>Fragen an den Datenschutzbeauftragten</h2>
           <p>
             Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche<br />
             Person in unserer Organisation.

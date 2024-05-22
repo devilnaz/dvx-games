@@ -59,7 +59,7 @@ function toggle_menu() {
 <style lang="scss" scoped>
 .menu-burger {
   display: none;
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 435px) {
     display: block;
   }
   &__container {
@@ -67,7 +67,8 @@ function toggle_menu() {
     left: 0;
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 200%;
+    z-index: 10;
   }
   &__btn-open {
     cursor: pointer;
@@ -90,12 +91,17 @@ function toggle_menu() {
     height: 100vh;
     padding: 48px 30px 30px;
     position: relative;
+    z-index: 10;
   }
   &__btn-close {
     cursor: pointer;
     position: absolute;
-    right: 15px;
-    top: 20px;
+    top: 5px;
+    right: 5px;
+    height: 24px;
+    width: 24px;
+    padding: 10px;
+    box-sizing: content-box;
     & .cross-line {
       display: block;
       height: 2px;
@@ -123,11 +129,13 @@ function toggle_menu() {
       transform: translateX(0);
     }
     .menu-burger__ground {
-      display: block;
+      opacity: 1;
+      z-index: 5;
+      transition: 0.3s opacity ease-in-out;
     }
     .menu-burger__body {
       transform: translateX(0);
-      transition: 0.4s transform ease;
+      transition: 0.4s transform ease-in-out;
     }
   }
   &[status='close'] {
@@ -136,7 +144,9 @@ function toggle_menu() {
       transition: 0.75s transform ease-in-out;
     }
     .menu-burger__ground {
-      display: none;
+      opacity: 0;
+      z-index: -5;
+      transition: 0.3s opacity, z-index ease-in-out;
     }
     .menu-burger__body {
       transform: translateX(-100%);
@@ -154,7 +164,7 @@ function toggle_menu() {
     color: var(--grey);
   }
   &__navigate {
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 435px) {
       display: none;
     }
   }
