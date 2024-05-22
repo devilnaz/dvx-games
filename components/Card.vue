@@ -23,10 +23,13 @@ const props = defineProps(['card']);
 .card {
   border-radius: 10px;
   border: 1px solid var(--light-grey);
-  transition: box-shadow 0.1s ease-out;
-  &:hover {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transition: box-shadow 0.15s ease-in;
+
+  @media (hover: hover) and (pointer: fine) {
+    transition: box-shadow 0.1s ease-out;
+    &:hover {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      transition: box-shadow 0.15s ease-in;
+    }
   }
   &__inner {
     padding: 12px 45px 40px;
@@ -35,6 +38,9 @@ const props = defineProps(['card']);
     height: 100%;
     @media (max-width: 576px) {
       padding: 12px 35px 40px;
+    }
+    @media (max-width: 476px) {
+      padding: 12px 20px 35px;
     }
   }
   &__wrap-img {

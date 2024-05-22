@@ -20,6 +20,7 @@
   margin: 0 auto;
   background-image: url(/img/bar.jpg);
   background-repeat: no-repeat;
+  background-position: center top;
   &__inner {
     height: 377px;
     display: flex;

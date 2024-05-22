@@ -24,11 +24,12 @@
   margin-top: 42px;
   background: no-repeat url('img/action.jpg');
   background-size: cover;
+  background-position: center top;
   border-radius: 10px;
   overflow: hidden;
   text-align: right;
   padding: 18px 30px 16px;
-  @media (max-width: 576px) {
+  @media (max-width: 768px) {
     text-align: center;
     }
 

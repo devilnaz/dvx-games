@@ -3,7 +3,7 @@
     <div class="other-cover">
       <div class="wrap-container">
         <div class="other-cover__inner">
-          <h3 class="other-cover__title">{{props.title}}</h3>
+          <h1 class="other-cover__title">{{props.title}}</h1>
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@ const props = defineProps(['title']);
   margin: 0 auto;
   background-image: url(/img/bar.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   &__inner {
     height: 112px;
     display: flex;
