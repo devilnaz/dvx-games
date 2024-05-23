@@ -45,18 +45,20 @@ export default defineNuxtConfig({
       '/terms-to-use': {
          redirect: 'https://dvxgames.net/terms'
       },
-      // '/terms': {
-      //    redirect: 'https://dvxgames.net/terms'
-      // },
-      // '/terms': {
-      //    redirect: 'https://dvxgames.net/terms'
-      // },
-      // '/terms': {
-      //    redirect: 'https://dvxgames.net/terms'
-      // },
-      // '/terms': {
-      //    redirect: 'https://dvxgames.net/terms'
-      // },
-
+      '/imprint': {
+         redirect: 'https://dvxgames.net/imprint'
+      },
+      '/privacy': {
+         redirect: 'https://dvxgames.net/privacy'
+      },
+      '/privacy-policy': {
+         redirect: 'https://dvxgames.net/privacy'
+      },
+      '/contact': {
+         redirect: 'https://dvxgames.net/contact'
+      },
+      '/products/**': {
+         redirect: 'https://dvxgames.net/apps/**'
+      }
    }
 })
