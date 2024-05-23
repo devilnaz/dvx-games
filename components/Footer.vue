@@ -5,7 +5,7 @@
         <nav class="navigate">
           <ul class="navigate__list">
             <li><NuxtLink to="contact" class="navigate__link"> Contact </NuxtLink></li>
-              <li><NuxtLink to="privacy" class="navigate__link"> Private Policy </NuxtLink></li>
+              <li><NuxtLink to="privacy" class="navigate__link"> Privacy Policy </NuxtLink></li>
               <li><NuxtLink to="imprint" class="navigate__link"> Imprint </NuxtLink></li>
           </ul>
         </nav>

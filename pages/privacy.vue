@@ -4,230 +4,108 @@
     <div class="wrap-container">
       <main class="main-content">
         <div class="privacy">
-          <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
-
           <p>
-            DVX Networks GmbH<br />
-            Teerhof 59<br />
-            28199 Bremen<br />
-            Germany<br />
-            <br />
-            Mail: <a href="mailto:info@dvx.net">info@dvx.net</a><br /><br />
-            Geschäftsführer: Mathias Seemann
+            This privacy policy describes the data we may collect from you when you use our games, applications, websites, and related services (collectively
+            referred to as "Services") and how we may use this data. By using our Services, you consent to the processing of your data in accordance with this
+            privacy policy.
           </p>
-
-          <h2>Ihre Betroffenenrechte</h2>
-          <p>Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:</p>
-
+          <p>
+            We reserve the right to update this privacy policy regularly by posting a revised version online. It is recommended that you review this policy
+            periodically. Your continued use of our Services after the publication of a revised version will be deemed as your acknowledgment and acceptance of
+            the modified terms.
+          </p>
+          <h2 >What data do we collect and why?</h2>
+          <p>
+            To provide you with a better experience, we may ask you to provide certain personally identifiable information while using our service. The
+            information we request will be stored and used in accordance with this privacy policy.
+          </p>
+          <p>
+            Please note that the app uses third-party services that may collect information that can be used to identify you. Here are the links to the privacy
+            policy of the third-party service providers used by the app:
+          </p>
           <ol>
-            <li>Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung (Art. 15 DSGVO),</li>
-            <li>Berichtigung unrichtiger personenbezogener Daten (Art. 16 DSGVO),</li>
-            <li>Löschung Ihrer bei uns gespeicherten Daten (Art. 17 DSGVO),</li>
-            <li>Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht löschen dürfen (Art. 18 DSGVO),</li>
-            <li>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns (Art. 21 DSGVO) und</li>
-            <li>
-              Datenübertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben (Art. 20 DSGVO).
-            </li>
+            <li>Google Play Services</li>
+            <li>AdMob</li>
+            <li>Google Analytics for Firebase</li>
+            <li>Firebase Crashlytics</li>
           </ol>
-
-          <p>Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.</p>
-
+          <h2 >Analytics Data</h2>
           <p>
-            Sie können sich jederzeit mit einer Beschwerde an eine Aufsichtsbehörde wenden, z. B. an die zuständige Aufsichtsbehörde des Bundeslands Ihres<br />
-            Wohnsitzes oder an die für uns als verantwortliche Stelle zuständige Behörde.
+            We use analytics services and tools like Google Analytics in various parts of our Services, which allow us to collect your IP address, other
+            identifiers, usage data related to our Services, and device information. With the help of this data, we can create statistics to improve our Services
+            for our customers and drive the development of our Services. This information is not personalized and is only available in an aggregated form. We
+            consider this information as non-personal data.
           </p>
-
           <p>
-            Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit Anschrift finden Sie unter:
-            <a target="_blank" href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
-              >https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a
-            >.
+            You can deactivate Google Analytics with this tool: <a href="https://tools.google.com/dlpage/gaoptout">https://tools.google.com/dlpage/gaoptout</a>
           </p>
-
-          <h2>Recht auf Datenübertragbarkeit</h2>
+          <h2 >Cookies and Other Identifiers</h2>
           <p>
-            Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an<br />
-            einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen<br />
-            Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.
+            This app does not explicitly use "cookies." However, the app may use third-party code and libraries that use "cookies" to collect information and
+            improve their services. You have the option to accept or decline these cookies and be notified when a cookie is sent to your device. If you reject our
+            cookies, you may not be able to use certain parts of this service.
           </p>
-
-          <h2>Auskunft, Sperrung, Löschung</h2>
-          <p>
-            Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten<br />
-            personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder<br />
-            Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum
-            angegebenen<br />
-            Adresse an uns wenden.
-          </p>
-
-          <h2>Widerspruch gegen Werbe-Mails</h2>
-          <p>
-            Der Nutzung der veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird
-            hiermit<br />
-            widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von
-            Werbeinformationen,<br />
-            etwa durch Spam-E-Mails, vor.
-          </p>
-
-          <h2>Erfassung allgemeiner Informationen beim Besuch unserer Website</h2>
-          <h3>Art und Zweck der Verarbeitung:</h3>
-          <p>
-            Wenn Sie auf unsere Website zugreifen, werden automatisch Informationen allgemeiner Natur erfasst. Diese<br />
-            Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres<br />
-            Internet-Service-Providers, Ihre IP-Adresse und ähnliches.
-          </p>
-
-          <h3>Sie werden insbesondere zu folgenden Zwecken verarbeitet:</h3>
-
-          <p>
-            Sicherstellung eines problemlosen Verbindungsaufbaus der Website, Sicherstellung einer reibungslosen Nutzung unserer Website, Auswertung der<br />
-            Systemsicherheit und -stabilität sowie zu weiteren administrativen Zwecken.
-          </p>
-
-          <p>
-            Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Informationen dieser Art werden von uns ggfs. statistisch ausgewertet,
-            um<br />
-            unseren Internetauftritt und die dahinterstehende Technik zu optimieren.<br />
-          </p>
-
-          <h3>Rechtsgrundlage:</h3>
-          <p>
-            Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an der Verbesserung der<br />
-            Stabilität und Funktionalität unserer Website.
-          </p>
-          <h3>Empfänger:</h3>
-          <p>
-            Empfänger der Daten sind ggf. technische Dienstleister, die für den Betrieb und die Wartung unserer Webseite als Auftragsverarbeiter<br />
-            tätig werden.
-          </p>
-          <h3>Speicherdauer:</h3>
-          <p>
-            Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht mehr erforderlich sind. Dies ist für die Daten, die der<br />
-            Bereitstellung der Webseite dienen, grundsätzlich der Fall, wenn die jeweilige Sitzung beendet ist.
-          </p>
-          <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
-          <p>
-            Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich noch vertraglich<br />
-            vorgeschrieben. Ohne die IP-Adresse ist jedoch der Dienst und die Funktionsfähigkeit unserer Website nicht gewährleistet. Zudem können einzelne<br />
-            Dienste und Services nicht verfügbar oder eingeschränkt sein. Aus diesem Grund ist ein Widerspruch ausgeschlossen.<br />
-          </p>
-
-          <h2>Cookies</h2>
-          <h3>Art und Zweck der Verarbeitung:</h3>
-
-          <p>
-            Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrem Endgerät<br />
-            (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Webseite besuchen.
-          </p>
-
-          <p>Hierdurch erhalten wir bestimmte Daten wie z. B. IP-Adresse, verwendeter Browser und Betriebssystem.</p>
-
-          <p>
-            Cookies können nicht verwendet werden, um Programme zu starten oder Viren auf einen Computer zu übertragen. Anhand der in Cookies enthaltenen<br />
-            Informationen können wir Ihnen die Navigation erleichtern und die korrekte Anzeige unserer Webseiten ermöglichen.
-          </p>
-
-          <p>
-            In keinem Fall werden die von uns erfassten Daten an Dritte weitergegeben oder ohne Ihre Einwilligung eine Verknüpfung mit personenbezogenen
-            Daten<br />
-            hergestellt.
-          </p>
-
-          <p>
-            Natürlich können Sie unsere Website grundsätzlich auch ohne Cookies betrachten. Internet-Browser sind regelmäßig so eingestellt, dass sie Cookies<br />
-            akzeptieren. Im Allgemeinen können Sie die Verwendung von Cookies jederzeit über die Einstellungen Ihres Browsers deaktivieren. Bitte verwenden
-            Sie<br />
-            die Hilfefunktionen Ihres Internetbrowsers, um zu erfahren, wie Sie diese Einstellungen ändern können. Bitte beachten Sie, dass einzelne
-            Funktionen<br />
-            unserer Website möglicherweise nicht funktionieren, wenn Sie die Verwendung von Cookies deaktiviert haben.<br />
-          </p>
-
-          <h3>Speicherdauer und eingesetzte Cookies:</h3>
-          <p>
-            Soweit Sie uns durch Ihre Browsereinstellungen oder Zustimmung die Verwendung von Cookies erlauben, können<br />
-            folgende Cookies auf unseren Webseiten zum Einsatz kommen:
-          </p>
-
-          <h2>Zur Zeit werden keine Cookies eingesetzt.</h2>
-
-          <p>Soweit diese Cookies (auch) personenbezogene Daten betreffen können, informieren wir Sie darüber in den folgenden Abschnitten.</p>
-
-          <p>
-            Sie können über Ihre Browsereinstellungen einzelne Cookies oder den gesamten Cookie-Bestand löschen. Darüber hinaus erhalten Sie Informationen
-            und<br />
-            Anleitungen, wie diese Cookies gelöscht oder deren Speicherung vorab blockiert werden können. Je nach Anbieter Ihres Browsers finden Sie die<br />
-            notwendigen Informationen unter den nachfolgenden Links:
-          </p>
-
+          <h2 >Service Providers:</h2>
+          <p>We may employ third-party companies and individuals to support the following reasons:</p>
           <ol>
-            <li>
-              Mozilla Firefox:
-              <a target="_blank" href="https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen"
-                >support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen</a
-              >
-            </li>
-
-            <li>
-              Internet Explorer:
-              <a target="_blank" href="https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies"
-                >support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies</a
-              >
-            </li>
-            <li>Google Chrome: <a target="_blank" href="https://support.google.com/accounts/answer/61416?hl=de">support.google.com/accounts/answer/61416?hl=de</a></li>
-
-            <li>Opera: <a target="_blank" href="http://www.opera.com/de/help">www.opera.com/de/help</a></li>
-
-            <li>
-              Safari:
-              <a target="_blank" href="https://support.apple.com/kb/Ph27191?locale=de_DE&viewlocale=de_DE">support.apple.com/kb/Ph27191?locale=de_DE&viewlocale=de_DE</a>
-            </li>
+            <li>To facilitate our service</li>
+            <li>To provide the service on our behalf</li>
+            <li>To perform service-related services</li>
+            <li>To assist us in analyzing how our service is used</li>
           </ol>
-
-          <h2>Verwendung von Programmen Dritter</h2>
           <p>
-            Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer<br />
-            Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
+            We would like to inform you that these third-party companies may have access to your personal information, but they are obligated not to disclose or
+            use it for any other purposes.
           </p>
-
+          <h2 >Security</h2>
           <p>
-            Die Google Fonts sind bei uns lokal eingebunden. Daher wird, im Gegensatz zu vielen anderen Webseiten, bei uns keine Verbindung zu den Servern
-            von<br />
-            Google zum Nachladen der jeweiligen Fonts aufgebaut.
+            We value your trust in providing us with your personal information, and therefore, we strive to use commercially acceptable means to protect it.
+            However, please be aware that no method of transmission over the internet or electronic storage is 100% secure and reliable. Therefore, we cannot
+            guarantee absolute security.
           </p>
-
-          <p>Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.</p>
-
+          <h2 >Links to Other Websites</h2>
           <p>
-            Zur Darstellung der Inhalte wird regelmäßig die Programmiersprache JavaScript verwendet. Sie können der Datenverarbeitung daher widersprechen,
-            indem<br />
-            Sie die Ausführung von JavaScript in Ihrem Browser deaktivieren oder einen Einbindung JavaScript-Blocker installieren. Bitte beachten Sie, dass
-            es<br />
-            hierdurch zu Funktionseinschränkungen auf der Website kommen kann.
+            This service may contain links to other websites that are not operated by us. We strongly advise you to review the privacy policy of these websites,
+            as we have no control over the content, privacy policies, or practices of any third-party websites or services and are not responsible for them.
           </p>
-
-          <h2>SSL-Verschlüsselung</h2>
+          <h2 >Children's Privacy</h2>
           <p>
-            Um die Sicherheit bei einem Besuch auf unserer Webseite zu erhöhen, verwenden wir dem aktuellen Stand der Technik entsprechende<br />
-            Verschlüsselungsverfahren (z. B. SSL) über HTTPS.
+            This service is not intended for individuals under 13 years of age. We do not knowingly collect personal information from children under 13 years old.
+            If we become aware that a child under 13 has provided us with personal information, we will promptly delete such information from our servers. If you
+            are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we can take
+            appropriate action.
           </p>
-
-          <h2>Änderung unserer Datenschutzbestimmungen</h2>
+          <h2 >Changes to this Privacy Policy:</h2>
           <p>
-            Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um
-            Änderungen<br />
-            unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue<br />
-            Datenschutzerklärung.
+            We may update our privacy policy from time to time. Therefore, it is recommended that you check this page regularly for changes. We will notify you of
+            any changes by posting the new privacy policy on this page.
           </p>
-
-          <h2>Fragen an den Datenschutzbeauftragten</h2>
+          <h2 >Your Rights To Your Data:</h2>
+          <p>Under the GDPR, we rely on your consent to process your data. We acknowledge the following rights regarding your data:</p>
+          <ol >
+            <li>You can withdraw your consent to store your data at any time without providing reasons.</li>
+            <li>You can request access to your personal data and receive copies of it.</li>
+            <li>You may have inaccurate or incomplete data corrected or updated.</li>
+            <li>You can restrict or object to the use of your data by us and ask us to stop using all your personal data.</li>
+            <li>
+              You have the right to be forgotten, meaning you can request that we delete your personal data. We will comply with such requests unless we are
+              legally obligated to retain the information or have an overriding interest in its retention.
+            </li>
+            <li>You have the right to file a complaint with your local data protection authority regarding your data rights.</li>
+            <li>If you wish to exercise any of these rights, please contact us via email at <a href="mailto:info@dvx.net" target="__blank">info@dvx.net</a>.</li>
+          </ol>
+          <h2 >Your Consent to These Terms:</h2>
           <p>
-            Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche<br />
-            Person in unserer Organisation.
+            By using our Services, you agree to this policy. If you do not agree to this policy, please refrain from using our Services. Your continued use of our
+            Services after any changes to this policy will be considered as your acceptance of those changes.
+          </p>
+          <h2 >Contact:</h2>
+          <p>
+            If you have any questions or suggestions regarding our privacy policy, please do not hesitate to contact us at
+            <a href="mailto:info@dvx.net" target="__blank"> info@dvx.net </a> or use the <NuxtLink to="/contact" class=""> contact form </NuxtLink>.
           </p>
         </div>
       </main>
     </div>
   </div>
 </template>
-
-<style lang="scss"></style>
