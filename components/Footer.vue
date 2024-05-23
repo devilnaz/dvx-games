@@ -10,12 +10,12 @@
 							</NuxtLink>
 						</li>
 						<li>
-							<NuxtLink to="privacy" class="navigate__link">
+							<NuxtLink to="privacy-policy" class="navigate__link">
 								Privacy Policy
 							</NuxtLink>
 						</li>
 						<li>
-							<NuxtLink to="imprint" class="navigate__link">
+							<NuxtLink to="impressum" class="navigate__link">
 								Imprint
 							</NuxtLink>
 						</li>
