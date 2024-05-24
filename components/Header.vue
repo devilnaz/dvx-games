@@ -107,11 +107,11 @@ function toggle_menu() {
 <style lang="scss" scoped>
 .menu-burger {
   display: none;
-  @media screen and (max-width: 355px) {
+  /* @media screen and (max-width: 355px) {
     display: block;
-  }
+  } */
   &__container {
-    position: fixed;
+   position: fixed;
     left: 0;
     top: 0;
     bottom: 0;
