@@ -15,12 +15,17 @@
 
 <style lang="scss" scoped>
 .main-cover {
-  max-width: 1920px;
+  // max-width: 1920px;
   width: 100%;
   margin: 0 auto;
   background-image: url(/img/bar.jpg);
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: cover;
+  @media (max-width: 1920px) {
+    max-width: 1920px;
+    background-size: auto;
+  }
   &__inner {
     height: 377px;
     display: flex;

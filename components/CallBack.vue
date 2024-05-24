@@ -6,7 +6,6 @@
           <div class="call-back__wrap-photo">
             <img src="/img/GettyImages.jpg" alt="photo: callback employee" class="call-back__photo" />
           </div>
-          <div class="call-back__name">Anna</div>
         </div>
         <div class="call-back__column call-back__column-info">
           <p class="call-back__text">Request a call back from DVX Networks. Anna will call you back as soon as possible.</p>
@@ -50,8 +49,8 @@
     max-width: 271px;
   }
   &__wrap-photo {
-    height: 120px;
-    width: 120px;
+    height: 142px;
+    width: 142px;
     border-radius: 4px;
     overflow: hidden;
     @media (max-width: 576px) {

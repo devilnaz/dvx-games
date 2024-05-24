@@ -108,6 +108,7 @@ async function send_email(e) {
     margin-top: 20px;
     color: var(--grey);
     font-size: var(--text-4-font-size);
+    font-weight: 400;
   }
 }
 .form {
