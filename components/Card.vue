@@ -1,17 +1,19 @@
 <template>
   <article class="card">
-    <div class="card__inner">
-      <div class="card__wrap-img">
-        <img :src="'/img/company/' + props.card.img.src" alt="" class="card__img" :style="'height: ' + props.card.img.height + 'px'" />
-      </div>
-      <span class="card__delimetr"></span>
-      <div class="card__body">
-        <p class="card__desc" v-html="props.card.desc"></p>
-        <div class="card__wrap-link">
-          <a :href="'https://' + props.card.link" class="card__link">{{ props.card.link }}</a>
-        </div>
-      </div>
-    </div>
+    <a :href="'https://' + props.card.link" target="_blank">
+		<div class="card__inner">
+		  <div class="card__wrap-img">
+			 <img :src="'/img/company/' + props.card.img.src" alt="" class="card__img" :style="'height: ' + props.card.img.height + 'px'" />
+		  </div>
+		  <span class="card__delimetr"></span>
+		  <div class="card__body">
+			 <p class="card__desc" v-html="props.card.desc"></p>
+			 <div class="card__wrap-link">
+				<a :href="'https://' + props.card.link" target="_blank" class="card__link">{{ props.card.link }}</a>
+			 </div>
+		  </div>
+		</div>
+	 </a>
   </article>
 </template>
 

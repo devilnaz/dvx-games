@@ -107,7 +107,7 @@ async function send_email(e) {
   &__desc {
     margin-top: 20px;
     color: var(--grey);
-    font-size: var(--text-4-font-size);
+    font-size: var(--text-5-font-size);
     font-weight: 400;
   }
 }
@@ -120,9 +120,14 @@ async function send_email(e) {
   &__textarea {
     width: 100%;
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     border: 1px solid var(--light-grey);
     border-radius: 5px;
+	 color: var(--grey);
+	 font-weight: 400;
+	 &::placeholder {
+		opacity: 0.9;
+	 }
   }
   &__input {
     height: 45px;
@@ -187,7 +192,7 @@ async function send_email(e) {
 .checkbox-label {
   user-select: none;
   color: #bfb3b3;
-  font-size: 14px;
+  font-size: 12px;
   &__link {
     color: #bfb3b3;
     text-decoration: underline;

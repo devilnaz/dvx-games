@@ -63,8 +63,8 @@ ul, ol {
 
 .privacy,
 .imprint {
-  color: var(--grey);
-  font-size: var(--text-4-font-size);
+  color: var(--color-other-page);
+  font-size: var(--text-5-font-size);
   /* word-break: break-all; */
   h2 {
     font-size: var(--header-2-font-size);
@@ -93,7 +93,7 @@ ul, ol {
       content: '';
       height: 0.65rem;
       width: 0.65rem;
-      background-color: var(--grey);
+      background-color: var(--color-other-page);
       border-radius: 50%;
       position: absolute;
       top: calc(50% - 1px);

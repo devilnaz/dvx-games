@@ -19,7 +19,7 @@
 								</NuxtLink>
 							</li>
 							<li>
-								<NuxtLink to="impressum" class="navigate__link">
+								<NuxtLink to="imprimer" class="navigate__link">
 									Imprint
 								</NuxtLink>
 							</li>
@@ -78,7 +78,7 @@
 								<li>
 									<NuxtLink
 										@click="toggle_menu"
-										to="imprint"
+										to="imprimer"
 										class="menu-burger__link"
 										>Imprint</NuxtLink
 									>

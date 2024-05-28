@@ -9,7 +9,7 @@
         </div>
         <div class="call-back__column call-back__column-info">
           <p class="call-back__text">Request a call back from DVX Networks. Anna will call you back as soon as possible.</p>
-          <a href="#" class="call-back__link">Request a call back</a>
+          <NuxtLink to="contact-form" class="call-back__link">Request a call back</NuxtLink>
         </div>
       </div>
     </div>

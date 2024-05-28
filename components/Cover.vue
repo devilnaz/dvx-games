@@ -32,9 +32,16 @@
     justify-content: center;
     flex-direction: column;
     color: white;
-    @media (max-width: 575px) {
+	 @media (max-width: 1400px) {
+	 padding-left: 47px;
+	 }
+    @media (max-width: 576px) {
       height: 277px;
+		padding-left: 36px;
     }
+	 @media (max-width: 476px) {
+		padding-left: 21px;
+	 }
   }
   &__title {
     font-family: var(--logo-font-family);
@@ -43,6 +50,9 @@
   }
   &__desc {
     font-size: var(--header-2-font-size);
+	 @media (max-width: 476px) {
+		font-size: var(--header-4-font-size);
+	 }
   }
 }
 </style>

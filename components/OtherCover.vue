@@ -35,6 +35,15 @@ const props = defineProps(['title']);
     justify-content: center;
     flex-direction: column;
     color: white;
+	 @media (max-width: 1400px) {
+	 padding-left: 47px;
+	 }
+    @media (max-width: 576px) {
+		padding-left: 36px;
+    }
+	 @media (max-width: 476px) {
+		padding-left: 21px;
+	 }
   }
   &__title {
     font-size: var(--header-4-font-size);
