@@ -76,6 +76,9 @@ ul, ol {
     font-size: var(--header-4-font-size);
     font-weight: 600;
   }
+  h2, h3 {
+	color: var(--grey);
+  }
   h3, p, ul, ol {
     margin-bottom: 15px;
   }
