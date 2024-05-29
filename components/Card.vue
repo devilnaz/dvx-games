@@ -3,7 +3,7 @@
     <a :href="'https://' + props.card.link" target="_blank">
 		<div class="card__inner">
 		  <div class="card__wrap-img">
-			 <img :src="'/img/company/' + props.card.img.src" alt="" class="card__img" :style="'height: ' + props.card.img.height + 'px'" />
+			 <NuxtImg loading="lazy" preload :src="'/img/company/' + props.card.img.src" class="card__img" :height="props.card.img.height" />
 		  </div>
 		  <span class="card__delimetr"></span>
 		  <div class="card__body">

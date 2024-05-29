@@ -4,7 +4,7 @@
       <div class="call-back__block">
         <div class="call-back__column">
           <div class="call-back__wrap-photo">
-            <img src="/img/GettyImages.jpg" alt="photo: callback employee" class="call-back__photo" />
+            <NuxtImg loading="lazy" src="/img/GettyImages.jpg" alt="photo: callback employee" class="call-back__photo" />
           </div>
         </div>
         <div class="call-back__column call-back__column-info">

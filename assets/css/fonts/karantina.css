@@ -2,6 +2,7 @@
   font-family: 'Karantina';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src:
     url('/fonts/karantina/Karantina-Regular.woff2') format('woff2'),
     url('/fonts/karantina/Karantina-Regular.woff') format('woff');
@@ -11,6 +12,7 @@
   font-family: 'Karantina';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src:
     url('/fonts/karantina/Karantina-Bold.woff2') format('woff2'),
     url('/fonts/karantina/Karantina-Bold.woff') format('woff');

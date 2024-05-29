@@ -40,6 +40,13 @@ ul, ol {
   list-style: none;
 }
 
+html {
+	@media (min-width: 960px) {
+		overflow-x: hidden;
+		margin-right: calc(-1 * (100vw - 100%));
+	}
+}
+
 .wrap-container {
   max-width: calc(1280px + 20px + 20px);
   padding: 0 20px;
@@ -109,3 +116,14 @@ ul, ol {
     color: var(--primary);
   }
 }
+
+.lazyload {
+	opacity: 0;
+}
+
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 0.1s ease-in-out;
+}
+
+
