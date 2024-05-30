@@ -341,4 +341,8 @@
 	</div>
 </template>
 
-<style lang="scss"></style>
+<script lang="ts" setup>
+useHead({
+	title: 'Privacy Policy',
+})
+</script>

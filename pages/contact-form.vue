@@ -87,6 +87,10 @@
 </template>
 
 <script lang="ts" setup>
+useHead({
+	title: 'Contact',
+})
+
 import axios from 'axios'
 import Swal from 'sweetalert2'
 

@@ -1,6 +1,6 @@
 <template>
   <article class="card">
-    <a :href="'https://' + props.card.link" target="_blank">
+    <a :href="'https://' + props.card.link">
 		<div class="card__inner">
 		  <div class="card__wrap-img">
 			 <NuxtImg loading="lazy" preload :src="'/img/company/' + props.card.img.src" class="card__img" :height="props.card.img.height" />
