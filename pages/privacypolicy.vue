@@ -71,7 +71,6 @@
 						Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen
 						Bereich) mit Anschrift finden Sie unter:
 						<a
-							target="_blank"
 							href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
 							>https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a
 						>.
@@ -240,7 +239,6 @@
 						<li>
 							Mozilla Firefox:
 							<a
-								target="_blank"
 								href="https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen"
 								>support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen</a
 							>
@@ -249,7 +247,6 @@
 						<li>
 							Internet Explorer:
 							<a
-								target="_blank"
 								href="https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies"
 								>support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies</a
 							>
@@ -257,7 +254,6 @@
 						<li>
 							Google Chrome:
 							<a
-								target="_blank"
 								href="https://support.google.com/accounts/answer/61416?hl=de"
 								>support.google.com/accounts/answer/61416?hl=de</a
 							>
@@ -265,7 +261,7 @@
 
 						<li>
 							Opera:
-							<a target="_blank" href="http://www.opera.com/de/help"
+							<a href="http://www.opera.com/de/help"
 								>www.opera.com/de/help</a
 							>
 						</li>
@@ -273,7 +269,6 @@
 						<li>
 							Safari:
 							<a
-								target="_blank"
 								href="https://support.apple.com/kb/Ph27191?locale=de_DE&viewlocale=de_DE"
 								>support.apple.com/kb/Ph27191?locale=de_DE&viewlocale=de_DE</a
 							>
