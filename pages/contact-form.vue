@@ -11,43 +11,79 @@
 						us without any hesitation.
 					</p>
 					<form class="form" @submit="send_email">
-						<div class="form__row">
-							<input
-								v-model="data_form.name"
-								type="text"
-								id="name"
-								class="form__input"
-								required
-								@blur="input_blur($event)"
-								@focus="input_focus($event)"
-							/>
-							<label class="form__label-input" for="name">Name</label>
+						<div class="form-contact__row" @click="row_focus($event)">
+							<fieldset
+								class="form-contact__fieldset"
+								aria-hidden="true"
+							>
+								<legend class="form-contact__legend" style="width: 0px">
+									​​&ZeroWidthSpace;
+								</legend>
+							</fieldset>
+							<div class="form-contact__box">
+								<label class="form-contact__label" for="name"
+									>Name</label
+								>
+								<input
+									class="form-contact__input form-contact__field form-contact__name"
+									@blur="input_blur($event)"
+									@focus="input_focus($event)"
+									type="text"
+									name="name"
+									id="name"
+									required
+									v-model="data_form.name"
+								/>
+							</div>
 						</div>
-						<div class="form__row">
-							<input
-								v-model="data_form.email"
-								type="email"
-								id="email"
-								class="form__input"
-								required
-								@blur="input_blur($event)"
-								@focus="input_focus($event)"
-							/>
-							<label class="form__label-input" for="email">E-mail</label>
+						<div class="form-contact__row" @click="row_focus($event)">
+							<fieldset
+								class="form-contact__fieldset"
+								aria-hidden="true"
+							>
+								<legend class="form-contact__legend" style="width: 0px">
+									​​&ZeroWidthSpace;
+								</legend>
+							</fieldset>
+							<div class="form-contact__box">
+								<label class="form-contact__label" for="login"
+									>E-Mail</label
+								>
+								<input
+									class="form-contact__input form-contact__field form-contact__email"
+									@blur="input_blur($event)"
+									@focus="input_focus($event)"
+									type="text"
+									name="login"
+									id="login"
+									required
+									v-model="data_form.email"
+								/>
+							</div>
 						</div>
-						<div class="form__row">
-							<textarea
+						<div class="form-contact__row" @click="row_focus($event)">
+							<fieldset
+								class="form-contact__fieldset"
+								aria-hidden="true"
+							>
+								<legend class="form-contact__legend" style="width: 0px">
+									​​&ZeroWidthSpace;
+								</legend>
+							</fieldset>
+							<div class="form-contact__box">
+								<label class="form-contact__label" for="message"
+									>Messages</label
+								>
+								<textarea
 								v-model="data_form.message"
 								id="message"
 								rows="4"
-								class="form__textarea"
-								required
-								@blur="input_blur($event)"
-								@focus="input_focus($event)"
-							/>
-							<label class="form__label-textarea" for="message"
-								>Messages</label
-							>
+									class="form-contact__textarea form-contact__field"
+									@blur="input_blur($event)"
+									@focus="input_focus($event)"
+									required
+								/>
+							</div>
 						</div>
 
 						<div class="form__row">
@@ -102,13 +138,47 @@ const initial_form = {
 }
 const data_form = ref({ ...initial_form })
 
+function row_focus(evt) {
+	input_focus(evt);
+}
+
 function input_focus(evt) {
-	evt.target.classList.add('focus')
+	const row = evt.target.closest('.form-contact__row')
+	const fieldset = row.querySelector('.form-contact__fieldset')
+	const label = row.querySelector('.form-contact__label')
+	const field = row.querySelector('.form-contact__field')
+
+	label.classList.add('focus')
+	fieldset.classList.add('focus')
+	field.focus()
+
+	const widthLabel = get_width(label)
+	const legend = row.querySelector('.form-contact__legend')
+	legend.style.width = `${widthLabel + 6}px`
 }
 function input_blur(evt) {
+	const row = evt.target.closest('.form-contact__row')
+	const fieldset = row.querySelector('.form-contact__fieldset')
+	const label = row.querySelector('.form-contact__label')
+
 	if (evt.target.value === '') {
-		evt.target.classList.remove('focus')
+		label.classList.remove('focus')
+		fieldset.classList.remove('focus')
+
+		const legend = row.querySelector('.form-contact__legend')
+		legend.style.width = `0px`
 	}
+}
+
+function get_width(elem) {
+	const textElem = elem.textContent
+	const pseudoLabel = document.createElement('label')
+	pseudoLabel.className = 'form-contact__pseudo-label'
+	pseudoLabel.textContent = textElem
+	document.querySelector('main').append(pseudoLabel)
+	const pseudoLabelWidth = pseudoLabel.getBoundingClientRect().width
+	pseudoLabel.remove()
+	return pseudoLabelWidth
 }
 
 async function send_email(e) {
@@ -179,53 +249,6 @@ async function send_email(e) {
 		margin-bottom: 15px;
 		position: relative;
 	}
-	&__label-input,
-	&__label-textarea {
-		font-size: 16px;
-		font-weight: 400;
-		color: #848484;
-		position: absolute;
-		top: 13px;
-		left: 20px;
-		z-index: 5;
-		padding: 0 5px;
-		margin: 0 -5px;
-		background-color: white;
-		transition: transform 0.1s;
-		cursor: text;
-		pointer-events: none;
-	}
-	&__input.focus + &__label-input,
-	&__textarea.focus + &__label-textarea {
-		color: var(--primary);
-		transform: translateY(-21px) scale(0.75);
-	}
-	&__input,
-	&__textarea {
-		width: 100%;
-		display: block;
-		font-size: 16px;
-		border: 1px solid var(--light-grey);
-		border-radius: 5px;
-		color: var(--grey);
-		font-weight: 400;
-		&.focus {
-			border-color: var(--primary);
-		}
-		&::placeholder {
-			opacity: 0.9;
-		}
-		&:focus {
-			outline: none;
-		}
-	}
-	&__input {
-		height: 45px;
-		padding: 0 10px 0 20px;
-	}
-	&__textarea {
-		padding: 10px 10px 10px 20px;
-	}
 	&__button {
 		button {
 			font-size: var(--text-4-font-size);
@@ -288,6 +311,78 @@ async function send_email(e) {
 	&__link {
 		color: #bfb3b3;
 		text-decoration: underline;
+	}
+}
+
+.form-contact {
+	&__row {
+		min-height: 45px;
+		width: 100%;
+		position: relative;
+		margin-bottom: 15px;
+		padding: 0 10px 0 20px;
+		cursor: text;
+	}
+	&__fieldset {
+		padding: 0;
+		position: absolute;
+		top: -9px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		border: 1px solid var(--light-grey);
+		border-radius: 5px;
+		padding-left: 16px;
+		&.focus {
+			border-color: rgba(0, 175, 240, 0.75);
+		}
+	}
+	&__box {
+		position: relative;
+		display: flex;
+	}
+	&__label {
+		font-size: 16px;
+		color: #848484;
+		font-weight: 400;
+		position: absolute;
+		left: 0;
+		top: 15px;
+		bottom: 0;
+		height: 20px;
+		line-height: 20px;
+		transform-origin: left top;
+		transition: transform 0.1s;
+		&.focus {
+			transform: translateY(-22px) scale(0.75);
+			color: var(--blue);
+		}
+	}
+	&__pseudo-label {
+		transform: scale(0.75);
+		font-size: 16px;
+		opacity: 0;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	&__input,
+	&__textarea {
+		position: relative;
+		border: none;
+		background: inherit;
+		caret-color: #0091ea;
+		color: #242529;
+		padding: 13px 0;
+		font-size: 16px;
+		line-height: 20px;
+		width: 100%;
+		&:focus {
+			outline: 0;
+		}
+	}
+	&__textarea {
+		resize: none;
 	}
 }
 </style>
