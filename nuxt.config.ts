@@ -104,6 +104,14 @@ export default defineNuxtConfig({
 				src: '/fonts/inter/Inter-Regular.woff',
 				family: 'Inter',
 			},
+			{
+				src: '/fonts/gotham/GothamXNarrow-Book.woff',
+				family: 'Gotham XNarrow',
+			},
+			{
+				src: '/fonts/gotham/GothamXNarrow-Book.woff2',
+				family: 'Gotham XNarrow',
+			},
 		],
 	},
 })

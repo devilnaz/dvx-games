@@ -1,0 +1,29 @@
+
+@font-face {
+	font-family: 'Gotham XNarrow';
+	src:  local('Gotham XNarrow Medium'), local('GothamXNarrow-Medium'),
+		 url('/fonts/gotham/GothamXNarrow-Medium.woff2') format('woff2'),
+		 url('/fonts/gotham/GothamXNarrow-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+ }
+ 
+ 
+ @font-face {
+	font-family: 'Gotham XNarrow';
+	src:  local('Gotham XNarrow Bold'), local('GothamXNarrow-Bold'),
+		 url('/fonts/gotham/GothamXNarrow-Bold.woff2') format('woff2'),
+		 url('/fonts/gotham/GothamXNarrow-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+ }
+ 
+ @font-face {
+	font-family: 'Gotham XNarrow';
+	src:  local('Gotham XNarrow Book'), local('GothamXNarrow-Book'),
+		 url('/fonts/gotham/GothamXNarrow-Book.woff2') format('woff2'),
+		 url('/fonts/gotham/GothamXNarrow-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+ }
+ 

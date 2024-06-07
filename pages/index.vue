@@ -9,6 +9,7 @@
 			</main>
 		</div>
 		<div class="wrap-container"><CallBack /></div>
+		<CookieNotification/>
 	</div>
 </template>
 
