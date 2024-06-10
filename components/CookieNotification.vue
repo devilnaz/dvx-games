@@ -82,6 +82,7 @@ function close_notification() {
 	}
 	&__desc {
 		text-align: center;
+    line-height: normal;
 	}
 	&__desc,
 	&__link {
