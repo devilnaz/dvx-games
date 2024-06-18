@@ -3,14 +3,13 @@
 		v-if="is_visible"
 		ref="element_notification"
 		class="notification-cookie"
+		@click="close_notification"
 	>
 		<p class="notification-cookie__desc">
 			Diese Website verwendet Cookies, um die Nutzerfreundlichkeit zu
 			verbessern. Durch die weitere Nutzung der Website stimmen Sie dem zu.
 			Weitere Infos zu Cookies und deren Deaktivierung finden Sie
-			<a class="notification-cookie__link" @click="close_notification"
-				>hier</a
-			>.
+			<NuxtLink to="privacypolicy" class="notification-cookie__link">hier</NuxtLink>.
 		</p>
 		<button
 			@click="close_notification"
@@ -52,13 +51,19 @@ onMounted(() => {
 	}
 })
 
-function close_notification() {
-	element_notification.value.classList.remove('notification-show')
-	element_notification.value.classList.add('notification-hide')
-	show_notif_cookie.value = 'false'
-	setTimeout(() => {
-		is_visible.value = false
-	}, 1000)
+function close_notification(event) {
+	const checkLink = event.target.classList.contains(
+		'notification-cookie__link'
+	)
+
+	if (!checkLink) {
+		element_notification.value.classList.remove('notification-show')
+		element_notification.value.classList.add('notification-hide')
+		show_notif_cookie.value = 'false'
+		setTimeout(() => {
+			is_visible.value = false
+		}, 1000)
+	}
 }
 </script>
 
@@ -82,7 +87,7 @@ function close_notification() {
 	}
 	&__desc {
 		text-align: center;
-    line-height: normal;
+		line-height: normal;
 	}
 	&__desc,
 	&__link {
