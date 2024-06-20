@@ -65,7 +65,7 @@ const cards = [
 			src: 'chouko.svg',
 			height: '54',
 		},
-		desc: 'Chouko is an anime brand that creates stories blending the physical and digital worlds. Our projects challenge the traditional boundaries of storytelling. Here are some of our key creations so far.',
+		desc: 'Chouko is an anime brand on the Ethereum Blockchain. Each NFT is unique and no two are exactly alike and have a variety of outfits, faces and colors. Your new NFT will be in your wallet within a few seconds.',
 		link: 'chouko.com',
 	},
 	{
