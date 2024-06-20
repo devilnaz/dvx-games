@@ -6,10 +6,11 @@
 		@click="close_notification"
 	>
 		<p class="notification-cookie__desc">
-			Diese Website verwendet Cookies, um die Nutzerfreundlichkeit zu
-			verbessern. Durch die weitere Nutzung der Website stimmen Sie dem zu.
-			Weitere Infos zu Cookies und deren Deaktivierung finden Sie
-			<NuxtLink to="privacypolicy" class="notification-cookie__link">hier</NuxtLink>.
+			Wir verwenden Cookies, um die Nutzerfreundlichkeit zu verbessern. Durch
+			die weitere Nutzung der Website stimmen Sie dem zu. Weitere Infos
+			<NuxtLink to="privacypolicy" class="notification-cookie__link"
+				>hier</NuxtLink
+			>.
 		</p>
 		<button
 			@click="close_notification"
@@ -17,7 +18,7 @@
 		>
 			<img
 				class="notification-cookie__btn-close-img"
-				src="/img/close-circle.svg"
+				src="/img/close-cross.svg"
 				alt="close cookie"
 			/>
 		</button>
@@ -75,29 +76,34 @@ function close_notification(event) {
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	max-width: 666px;
+	max-width: 398px;
 	width: 100%;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	padding: 6px 63px 7px;
-	background-color: #1e2020;
+	padding: 10px 75px 10px 15px;
+	background-color: #f6f6f6;
 	z-index: 1000;
 	&:hover {
 		cursor: pointer;
 	}
-	@media (max-width: 486px) {
-		padding-left: 20px;
+	@media (max-width: 400px) {
+		border-radius: 0;
+	}
+	@media (max-width: 374px) {
+		padding: 7px 75px 7px 15px;
 	}
 	&__desc {
 		text-align: center;
 		line-height: normal;
+		text-align: left;
 	}
 	&__desc,
 	&__link {
-		font-family: 'Gotham XNarrow';
+		font-family: 'Inter';
 		font-weight: 400;
-		font-size: 14px;
-		color: #ffffff;
+		font-size: 12px;
+		line-height: 14.52px;
+		color: #838383;
 	}
 	&__link {
 		text-decoration: underline;
@@ -106,24 +112,22 @@ function close_notification(event) {
 		}
 		&:hover,
 		&:active {
-			color: #fff;
+			color: #a5a5a5;
 		}
 	}
 	&__btn-close {
+		padding: 0;
+		border: 0;
+		background-color: inherit;
 		border-radius: 50%;
 		overflow: hidden;
 		cursor: pointer;
 		position: absolute;
-		right: 14px;
-		top: 12px;
-		height: 24px;
-		width: 24px;
-		@media (max-width: 768px) {
-			padding: 10px;
-			top: 2px;
-			right: 4px;
-			box-sizing: content-box;
-		}
+		right: 25px;
+		top: 50%;
+		transform: translateY(-50%);
+		height: 29px;
+		width: 29px;
 	}
 	&__btn-close-img {
 		display: block;
