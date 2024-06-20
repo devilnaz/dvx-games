@@ -82,6 +82,9 @@ function close_notification(event) {
 	padding: 6px 63px 7px;
 	background-color: #1e2020;
 	z-index: 1000;
+	&:hover {
+		cursor: pointer;
+	}
 	@media (max-width: 486px) {
 		padding-left: 20px;
 	}
